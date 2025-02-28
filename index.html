@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PersonalPage</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <div id="brand">
+            <a href="#">Natascha Fritzen</a>
+        </div>
+        <i class="fa fa-bars nav-toggle"></i>
+        <ul>
+            <li><a href="#">Sobre Mim</a></li>
+            <li><a href="#">Habilidades & Experiências</a></li>
+            <li><a href="#">Portfólio</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <main id="page-content">
+        <section id="presentation" class="container">
+            <img src="src/fotobio.jpeg" />
+            <h1>Natascha Fritzen</h1>
+            <span>Dev dedicada a criar soluções web interativas, responsivas e com foco na experiência do
+                usuário.</span>
+        </section>
+
+        <section id="about" class="container">
+            <h1>Sobre Mim</h1>
+            <p>Me chamo Natasha e estou focada em aprimorar minhas habilidades em Front-End com HTML, CSS e JavaScript.
+                Gosto de aprender na prática, desenvolvendo projetos que me permitem explorar novas tecnologias e
+                evoluir
+                constantemente na área.</p>
+        </section>
+        <section id="skills" class="container">
+            <h1>Habilidades & Experiências</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+
+                    <h2>Desenvolvimento Front-End</h2>
+                    <p>Conhecimento em HTML, CSS e JavaScript, com experiência na criação de interfaces responsivas e
+                        interativas, adaptáveis a diferentes dispositivos.</p>
+                </div>
+
+                <div class="grid-item">
+                    <h2>Desenvolvimento de Interfaces Interativas</h2>
+                    <p>Implementação de funcionalidades interativas, como validação de formulários, alterações de estilo
+                        em tempo real e feedback visual imediato, garantindo uma experiência de usuário fluida.</p>
+                </div>
+                <div class="grid-item">
+                    <h2>Desenvolvimento de Funcionalidades e Jogos</h2>
+                    <p>Criação de jogos simples (como Jogo da Velha) e interações lúdicas, com controle de estado e
+                        validação de resultados, além de algoritmos para calculadoras e saudações personalizadas.</p>
+                </div>
+                <div class="grid-item">
+                    <h2>Lógica de Programação e Manipulação de Dados</h2>
+                    <p>Experiência em lógica de programação em JavaScript, resolução de problemas lógicos e manipulação
+                        de dados dinâmicos, utilizando arrays, condições e loops.</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="portfolio" class="container">
+            <h1>Portfolio</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+
+                    <img src="src/siteFormularioDeInscricao.jpeg" />
+                    <!-- inserir imagem dos projetos em todas as img -->
+                </div>
+                <div class="grid-item">
+                    <img src="src/jogoDaVelhaInterativo.jpeg" />
+                </div>
+                <div class="grid-item">
+                    <img src="src/saudacaoOnline.jpeg" />
+                </div>
+                <div class="grid-item">
+                    <img src="src/calculadoraBasica.jpeg" />
+                </div>
+                <!--   Caso queira adicionar mais uma imagem
+                <div class="grid-item">
+                    <img src="" /> 
+                </div>    -->
+            </div>
+        </section>
+        <section id="contact" class="container">
+            <form id="contact-form">
+                <h1>Contato</h1>
+                <div class="grid-container">
+                    <div class="grid-item">
+
+                        <input type="text" placeholder="Nome" id="name">
+                    </div>
+                    <div class="grid-item">
+                        <input type="email" placeholder="E-mail" id="email">
+                    </div>
+                </div>
+                <div class="grid-container one-colunm">
+                    <div class="grid-item">
+
+                        <input type="text" placeholder="Assunto" id="subject">
+                    </div>
+                    <div class="grid-item">
+                        <textarea placeholder="Mensagem" id="message"></textarea>
+                    </div>
+                    <div class="grid-item">
+                        <input type="submit" value="enviar">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/natascha-fritzen-884a21258/" target="_blank"><i
+                class="fa fa-linkedin"></i></a>
+        <a href=" https://github.com/NataschaFritzen " target="_blank"><i class="fa fa-github"></i></a>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+
+</html>
